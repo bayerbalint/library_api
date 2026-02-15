@@ -1,0 +1,16 @@
+meta {
+  name: get_book_by_id
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:8000/books/1
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
