@@ -18,9 +18,6 @@ class Request
             '/categories',
             '/publishers',
             '/writers',
-            '/categories/{category}/books',
-            '/publishers/{publisher}/books',
-            '/writers/{writer}/books'
         ],
         'GET' => [
             '/books',
@@ -40,18 +37,12 @@ class Request
             '/categories/{id}',
             '/publishers/{id}',
             '/writers/{id}',
-            '/categories/{category}/books/{id}',
-            '/publishers/{publisher}/books/{id}',
-            '/writers/{writer}/books/{id}'
         ],
         'DELETE' => [
             '/books/{id}',
             '/categories/{id}',
             '/publishers/{id}',
             '/writers/{id}',
-            '/categories/{category}/books/{id}',
-            '/publishers/{publisher}/books/{id}',
-            '/writers/{writer}/books/{id}'
         ],
     ];
 
